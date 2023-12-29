@@ -29,6 +29,10 @@ body::before {
   z-index: -1;
 }
 
+link[rel="icon"] {
+  border-radius: 50%; 
+}
+
 @media (min-width: 1024px) {
   body::before {
     background-attachment: fixed;
